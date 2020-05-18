@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="DIM"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{53BD4C27-9902-4584-BB5B-A04E2892B02A}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{5ECC78FA-01A6-4B40-A84F-8B134BB93058}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -1656,7 +1656,7 @@ where [refTable].[productName] = ?</property>
         <NodeLayout
           Size="101,80"
           Id="Package\Data Flow Task\Date"
-          TopLeft="860,276.25" />
+          TopLeft="885,380" />
         <NodeLayout
           Size="147,42"
           Id="Package\Data Flow Task\DIM Customer"
@@ -1664,7 +1664,7 @@ where [refTable].[productName] = ?</property>
         <NodeLayout
           Size="124,42"
           Id="Package\Data Flow Task\DIM Date"
-          TopLeft="845,420.75" />
+          TopLeft="870,524.5" />
         <NodeLayout
           Size="138,42"
           Id="Package\Data Flow Task\DIM Product"
@@ -1719,7 +1719,7 @@ where [refTable].[productName] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup No Match Output2]"
-          TopLeft="908.75,356.25">
+          TopLeft="933.75,460">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1744,21 +1744,33 @@ where [refTable].[productName] = ?</property>
         <NodeLayout
           Size="98,42"
           Id="Package\Data Flow Task\Sort"
-          TopLeft="775,110" />
+          TopLeft="800,213.75" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Multicast Output 3]"
-          TopLeft="640.5,130.25">
+          TopLeft="608.5,150.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="134.5,0"
+              EndConnector="240.5,63.25"
               Start="0,0"
-              End="127,0">
+              End="240.5,55.75">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="127,0" />
+                    End="0,18" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18"
+                    Point2="0,22"
+                    Point3="4,22" />
+                  <mssgle:LineSegment
+                    End="236.5,22" />
+                  <mssgle:CubicBezierSegment
+                    Point1="236.5,22"
+                    Point2="240.5,22"
+                    Point3="240.5,26" />
+                  <mssgle:LineSegment
+                    End="240.5,55.75" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1769,7 +1781,7 @@ where [refTable].[productName] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Sort Output]"
-          TopLeft="824,152">
+          TopLeft="849,255.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
