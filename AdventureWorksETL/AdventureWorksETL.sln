@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AdventureWorksETL", "AdventureWorksETL\AdventureWorksETL.dtproj", "{FEAC42FC-D5CA-4FD5-92EE-B4C7C205366D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEAC42FC-D5CA-4FD5-92EE-B4C7C205366D}.Development|Default.ActiveCfg = Development
+		{FEAC42FC-D5CA-4FD5-92EE-B4C7C205366D}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E440F735-B618-407B-B031-785BC653F1A7}
+	EndGlobalSection
+EndGlobal
